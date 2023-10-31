@@ -1,4 +1,5 @@
 class Chat {
+  int id;
   String name;
   String icon;
   bool isGroup;
@@ -8,6 +9,7 @@ class Chat {
   bool select = false;
 
   Chat({
+    required this.id,
     required this.name,
     required this.icon,
     required this.isGroup,

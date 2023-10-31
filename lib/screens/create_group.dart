@@ -13,24 +13,28 @@ class CreateGroupScreen extends StatefulWidget {
 class _SelectContactState extends State<CreateGroupScreen> {
   List<Chat> contacts = [
     Chat(
+      id: 1,
       name: "Abdullah",
       icon: "person",
       isGroup: false,
       status: "Online",
     ),
     Chat(
+      id: 2,
       name: "Haseeb",
       icon: "person",
       isGroup: false,
       status: "Online",
     ),
     Chat(
+      id: 3,
       name: "Zuhaib",
       icon: "group",
       isGroup: true,
       status: "Online",
     ),
     Chat(
+      id: 4,
       name: "Ali",
       icon: "group",
       isGroup: true,

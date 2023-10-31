@@ -16,6 +16,7 @@ class _SelectContactState extends State<SelectContactScreen> {
   Widget build(BuildContext context) {
     List<Chat> contacts = [
       Chat(
+        id: 1,
         name: "Abdullah",
         icon: "person",
         isGroup: false,
@@ -24,6 +25,7 @@ class _SelectContactState extends State<SelectContactScreen> {
         status: "Online",
       ),
       Chat(
+        id: 2,
         name: "Haseeb",
         icon: "person",
         isGroup: false,
@@ -32,6 +34,7 @@ class _SelectContactState extends State<SelectContactScreen> {
         status: "Online",
       ),
       Chat(
+        id: 3,
         name: "Zuhaib",
         icon: "group",
         isGroup: true,
@@ -40,6 +43,7 @@ class _SelectContactState extends State<SelectContactScreen> {
         status: "Online",
       ),
       Chat(
+        id: 4,
         name: "Ali",
         icon: "group",
         isGroup: true,

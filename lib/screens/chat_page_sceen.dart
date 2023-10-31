@@ -13,13 +13,16 @@ class ChatPageScreen extends StatefulWidget {
 class _ChatPageScreenState extends State<ChatPageScreen> {
   List<Chat> chats = [
     Chat(
-        name: "Abdullah",
-        icon: "person",
-        isGroup: false,
-        time: "4:00",
-        currentMessage: "Hi Everyone",
-        status: "Online"),
+      id: 1,
+      name: "Abdullah",
+      icon: "person",
+      isGroup: false,
+      time: "4:00",
+      currentMessage: "Hi Everyone",
+      status: "Online",
+    ),
     Chat(
+      id: 2,
       name: "Haseeb",
       icon: "person",
       isGroup: false,
@@ -28,6 +31,7 @@ class _ChatPageScreenState extends State<ChatPageScreen> {
       status: "Online",
     ),
     Chat(
+      id: 3,
       name: "Zuhaib",
       icon: "group",
       isGroup: true,
@@ -36,6 +40,7 @@ class _ChatPageScreenState extends State<ChatPageScreen> {
       status: "Online",
     ),
     Chat(
+      id: 4,
       name: "Ali",
       icon: "group",
       isGroup: true,
